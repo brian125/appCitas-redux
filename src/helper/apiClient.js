@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiClient = () => {
     const axiosInstance = axios.create({
-        baseURL: "http://localhost:8080", 
+        baseURL: "https://clinica-reactiva.herokuapp.com/citas", 
         responseType: "json"
     })
 
